@@ -7,7 +7,7 @@ import (
 
     "github.com/hashicorp/cdktf-provider-docker-go/docker/v3/container"
     "github.com/hashicorp/cdktf-provider-docker-go/docker/v3/image"
-    dockerprovider "github.com/hashicorp/cdktf-provider-docker-go/docker/v3/provider"
+    dockerprovider "github.com/hashicorp/cdktf-provider-docker-go/docker/v2/provider"
 )
 
 func NewMyStack(scope constructs.Construct, id string) cdktf.TerraformStack {
